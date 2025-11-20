@@ -1,3 +1,4 @@
+import React from "react";
 
 import { FaCheckCircle, FaUsers, FaBolt, FaHeadset } from "react-icons/fa";
 import img from "../assets/back4.jpeg";
