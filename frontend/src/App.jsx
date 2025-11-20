@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+
 
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Registration from "./pages/Registration";
