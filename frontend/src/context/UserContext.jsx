@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { useState } from "react";
 import { Children } from "react";
 import { createContext } from "react";
-import { authDataContext } from "./authContext";
+import { authDataContext } from "./AuthContext";
 import { useEffect } from "react";
 export const userDataContext = createContext();
 const UserContext = ({ children }) => {
