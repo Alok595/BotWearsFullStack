@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["https://botwearsfullstack-frontendone.onrender.com", "https://botwearsfullstack-frontendtwo.onrender.com"],
+    origin: ["https://botwearsfullstack-frontendone.onrender.com", "https://botwearsfullstack-frontend2.onrender.com"],
     credentials: true,
   })
 );
