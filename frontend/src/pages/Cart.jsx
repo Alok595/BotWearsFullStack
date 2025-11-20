@@ -4,6 +4,8 @@ import { shopDataContext } from "../context/ShopContext";
 import { useNavigate } from "react-router-dom";
 import { FaTrash } from "react-icons/fa";
 import CartTotal from "../components/CartTotal";
+import React from "react";
+
 
 const Cart = () => {
   const { updateQuantity, cartItem, currency, products } =
