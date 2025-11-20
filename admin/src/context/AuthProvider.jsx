@@ -1,7 +1,7 @@
 import React, { createContext } from "react";
 export const authDataContext = createContext();
 const AuthProvider = ({ children }) => {
-  let serverUrl = "http://localhost:8000";
+  let serverUrl = "https://botwearsfullstack-backend.onrender.com";
 
   const value = { serverUrl };
   return (
